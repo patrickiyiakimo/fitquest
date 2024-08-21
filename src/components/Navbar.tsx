@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <div className="navbar bg-base-100 font-mont">
+    <div className="navbar bg-base-100 font-mont fixed ">
       <div className="navbar-start">
         <a className="btn btn-ghost text-2xl font-bold mr-96 ">
           <button>
