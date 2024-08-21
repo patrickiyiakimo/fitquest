@@ -28,7 +28,7 @@ export default function Navbar() {
             <a>Blogs</a>
           </li>
           <li>
-            <a className=" px-10 rounded-full py-2 bg-black text-white hover:bg-gray-900">Contact</a>
+            <a className=" px-10 rounded-full py-2 bg-black text-white hover:bg-orange-600">Contact</a>
           </li>
         </ul>
       </div>
@@ -75,7 +75,7 @@ export default function Navbar() {
             </li>
             <li>
               <div className="navbar-end">
-                <a className="px-10 rounded-full py-2 bg-black text-white hover:bg-gray-900">Button</a>
+                <a className="px-10 rounded-full py-2 bg-black text-white hover:bg-orange-600">Button</a>
               </div>
             </li>
           </ul>
