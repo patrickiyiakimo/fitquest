@@ -29,7 +29,7 @@ export default function PersonalTraining() {
           <h2 className="text-2xl font-semibold pl-10 pt-10">Pricing Plan</h2>
           <h1 className="text-2xl lg:text-7xl font-bold pl-10 pt-5">Join Today</h1>
         </div>
-        <div className="grid grid-cols-1  lg:grid-cols-3 shadow-2xl lg:gap-10 p-5 gap-6 lg:p-10 mt-10 mb-10">
+        <div className="grid grid-cols-1  lg:grid-cols-3 shadow-2xl lg:gap-10 p-5 gap-6 lg:p-10 mt-10 mb-10 border-4 rounded-lg">
           {pricing.map((pricing) => (
             <div key={pricing.id}>
               <p className="font-bold text-3xl">{pricing.title}</p>
