@@ -15,7 +15,7 @@ const Hero: React.FC = () => {
           <h1 className="text-center  lg:ml-1 text-2xl md:text-6xl md:mr-10 font-bold">
             Reach Your Body Goal at FitQuest
           </h1>
-          <p className="text-center mt-7  lg:ml-10 md:w-2/4 md:ml-40  lg:w-96 text-xl">
+          <p className="text-center mt-7 mr-5 lg:ml-10 md:w-2/4 md:ml-40  lg:w-96 text-xl">
             We believe that the potential to achieve desired health and wellness
             goals lies within everyone.
           </p>
@@ -35,7 +35,6 @@ const Hero: React.FC = () => {
                   </div>
                 </li>
                 <li>
-                  {" "}
                   <div className="stat place-items-center">
                     <div className="stat-title">Members Joined</div>
                     <div className="stat-value">4,200</div>
@@ -43,14 +42,6 @@ const Hero: React.FC = () => {
                   </div>
                 </li>
                 <li>
-                  <div className="stat place-items-center">
-                    <div className="stat-title">Members Joined</div>
-                    <div className="stat-value">4,200</div>
-                    <div className="stat-desc">↗︎ 40 (2%)</div>
-                  </div>
-                </li>
-                <li>
-                  {" "}
                   <div className="stat place-items-center">
                     <div className="stat-title">New Registers</div>
                     <div className="stat-value">1,200</div>
@@ -71,8 +62,8 @@ const Hero: React.FC = () => {
 
               <div className="stat place-items-center">
                 <div className="stat-title">Members Joined</div>
-                <div className="stat-value text-secondary">4,200</div>
-                <div className="stat-desc text-secondary">↗︎ 40 (2%)</div>
+                <div className="stat-value">4,200</div>
+                <div className="stat-desc">↗︎ 40 (2%)</div>
               </div>
 
               <div className="stat place-items-center">
