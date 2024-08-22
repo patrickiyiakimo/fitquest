@@ -23,7 +23,7 @@ export default function PersonalTraining() {
   ]);
 
   return (
-    <div className="bg-orange-500 m-5 lg:m-40 font-mont text-white lg:p-14 rounded-lg">
+    <div className="bg-orange-400 m-5 lg:m-20 font-mont text-white lg:p-14 rounded-lg">
       <div className="">
         <div className="uppercase">
           <h2 className="text-2xl font-semibold pl-10 pt-10">Pricing Plan</h2>

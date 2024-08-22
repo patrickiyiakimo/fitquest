@@ -38,15 +38,15 @@ const Hero: React.FC = () => {
                   {" "}
                   <div className="stat place-items-center">
                     <div className="stat-title">Members Joined</div>
-                    <div className="stat-value text-secondary">4,200</div>
-                    <div className="stat-desc text-secondary">↗︎ 40 (2%)</div>
+                    <div className="stat-value">4,200</div>
+                    <div className="stat-desc">↗︎ 40 (2%)</div>
                   </div>
                 </li>
                 <li>
                   <div className="stat place-items-center">
                     <div className="stat-title">Members Joined</div>
-                    <div className="stat-value text-secondary">4,200</div>
-                    <div className="stat-desc text-secondary">↗︎ 40 (2%)</div>
+                    <div className="stat-value">4,200</div>
+                    <div className="stat-desc">↗︎ 40 (2%)</div>
                   </div>
                 </li>
                 <li>
