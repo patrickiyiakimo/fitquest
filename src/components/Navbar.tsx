@@ -1,11 +1,17 @@
 import React, { useEffect, useState } from "react";
 
 export default function Navbar() {
+  // State to track the active link
+  const [activeLink, setActiveLink] = useState<string>("Home");
+
+  // Function to handle click and set active link
+  const handleClick = (link: string) => {
+    setActiveLink(link);
+  };
   // Initialize theme with explicit string type
   const [theme, setTheme] = useState<string>(
     localStorage.getItem("theme") ?? "light"
   );
-
 
   const handleToggle = (e: React.ChangeEvent<HTMLInputElement>) => {
     const newTheme = e.target.checked ? "dark" : "light";
@@ -23,7 +29,7 @@ export default function Navbar() {
   }, [theme]);
 
   return (
-    <div className="navbar bg-base-100 font-mont fixed">
+    <div className="navbar bg-base-100 font-mont fixed z-50">
       <div className="navbar-start">
         <a className="btn btn-ghost text-2xl font-bold mr-96">
           <button>
@@ -37,20 +43,56 @@ export default function Navbar() {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a>Home</a>
+            <a
+              href="#"
+              className={`${
+                activeLink === "Home" ? "text-orange-500 underline" : ""
+              }`}
+              onClick={() => handleClick("Home")}
+            >
+              Home
+            </a>
           </li>
           <li>
-            <a>Membership</a>
+            <a
+              href="#"
+              className={`${
+                activeLink === "Membership" ? "text-orange-500 underline" : ""
+              }`}
+              onClick={() => handleClick("Membership")}
+            >
+              Membership
+            </a>
           </li>
           <li>
-            <a>About</a>
+            <a
+              href="#"
+              className={`${
+                activeLink === "About" ? "text-orange-500 underline" : ""
+              }`}
+              onClick={() => handleClick("About")}
+            >
+              About
+            </a>
           </li>
           <li>
-            <a>Blogs</a>
+            <a
+              href="#"
+              className={`${
+                activeLink === "Blogs" ? "text-orange-500 underline" : ""
+              }`}
+              onClick={() => handleClick("Blogs")}
+            >
+              Blogs
+            </a>
           </li>
           <li>
-            <a className="px-10 rounded-full py-2 bg-black text-white hover:bg-orange-600">
-              Contact
+            <a
+              href="#"
+              className="px-10 rounded-full py-2 bg-black text-white hover:bg-orange-600"
+              onClick={() => handleClick("Sign Up")}
+            >
+              Sign Up
             </a>
           </li>
           <li>
@@ -80,7 +122,7 @@ export default function Navbar() {
       </div>
 
       {/* Mobile-only drawer */}
-      <div className="drawer drawer-end lg:hidden">
+      <div className="drawer drawer-end lg:hidden  z-50">
         <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content flex justify-end">
           <label
@@ -106,21 +148,53 @@ export default function Navbar() {
           ></label>
           <ul className="menu bg-base-200 text-base-content min-h-full w-80 p-10 pt-80">
             <li>
-              <a>Home</a>
+              <a
+                href="#"
+                className={`${
+                  activeLink === "Home" ? "text-orange-500 underline" : ""
+                }`}
+                onClick={() => handleClick("Home")}
+              >
+                Home
+              </a>
             </li>
             <li>
-              <a>Membership</a>
+              <a
+                href="#"
+                className={`${
+                  activeLink === "Membership" ? "text-orange-500 underline" : ""
+                }`}
+                onClick={() => handleClick("Membership")}
+              >
+                Membership
+              </a>
             </li>
             <li>
-              <a>About</a>
+              <a
+                href="#"
+                className={`${
+                  activeLink === "About" ? "text-orange-500 underline" : ""
+                }`}
+                onClick={() => handleClick("About")}
+              >
+                About
+              </a>
             </li>
             <li>
-              <a>Blogs</a>
+              <a
+                href="#"
+                className={`${
+                  activeLink === "Blogs" ? "text-orange-500 underline" : ""
+                }`}
+                onClick={() => handleClick("Blogs")}
+              >
+                Blogs
+              </a>
             </li>
             <li>
               <div className="navbar-end">
-                <a className="px-10 rounded-full py-2 bg-black text-white hover:bg-orange-600">
-                  Button
+                <a className="px-10 rounded-full py-2 bg-black whitespace-nowrap text-white hover:bg-orange-600">
+                  Sign Up
                 </a>
               </div>
             </li>

@@ -3,6 +3,7 @@ import Hero from "./pages/Hero";
 import Designed from "./pages/Designed";
 import PersonalTraining from "./pages/PersonalTraining";
 import Footer from "./components/Footer";
+import Faq from "./pages/Faq";
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
       </div>
       <div>
         <PersonalTraining />
+      </div>
+      <div>
+        <Faq />
       </div>
       <div>
         <Footer />
