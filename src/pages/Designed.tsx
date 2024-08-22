@@ -8,7 +8,7 @@ const Designed: React.FC = () => {
           <img
             src="/images/undraw_personal_training_0dqn.png"
             alt="working-out"
-            className="w-4/4 lg:ml-40 lg:pr-40"
+            className="md:w-4/4  lg:ml-40 lg:pr-40 rounded-l-full"
           />
         </div>
         <div className="md:ml-20 lg:ml-1">

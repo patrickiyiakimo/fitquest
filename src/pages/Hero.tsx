@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
           <img
             src="/images/undraw_indoor_bike_pwa4.png"
             alt="hero-logo"
-            className="w-4/4 md:w-3/4 mt-20 md:mt-20 md:ml-16 ml-8"
+            className="w-2/3 ml-20 md:w-3/4 mt-20 md:mt-20 md:ml-16  rounded-t-full"
           />
         </div>
         <div className="ml-9 md:ml-1 lg:w-1/2 mt-28">
