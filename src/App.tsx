@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./pages/Hero";
 import Designed from "./pages/Designed";
 import PersonalTraining from "./pages/PersonalTraining";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
       </div>
       <div>
         <PersonalTraining />
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );
