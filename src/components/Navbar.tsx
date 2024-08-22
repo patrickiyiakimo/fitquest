@@ -85,7 +85,7 @@ export default function Navbar() {
         <div className="drawer-content flex justify-end">
           <label
             htmlFor="my-drawer-4"
-            className="drawer-button text-orange-600"
+            className="drawer-button text-orange-600 border-orange-500 border-2"
           >
             <svg
               className="swap-off fill-current"
