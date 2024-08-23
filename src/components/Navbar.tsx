@@ -29,7 +29,7 @@ export default function Navbar() {
   }, [theme]);
 
   return (
-    <div className="navbar bg-base-100 font-mont fixed z-50">
+    <div className="navbar bg-base-100 font-mont top-0 fixed z-50">
       <div className="navbar-start">
         <a className="btn btn-ghost text-2xl font-bold mr-96">
           <button>
@@ -122,7 +122,7 @@ export default function Navbar() {
       </div>
 
       {/* Mobile-only drawer */}
-      <div className="drawer drawer-end lg:hidden  z-50">
+      <div className="drawer drawer-end lg:hidden top-0 z-50">
         <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content flex justify-end">
           <label

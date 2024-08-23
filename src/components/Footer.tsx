@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer: React.FC = () => {
   return (
-    <div>
-      <footer className="footer bg-base-300 text-base-content mt-20 p-10">
+    <div className="font-mont bottom-0">
+      <footer className="footer bg-base-300 text-base-content mt-20 p-10 ">
         <nav>
           <h6 className="footer-title">Services</h6>
           <a className="link link-hover">Branding</a>
