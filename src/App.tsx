@@ -7,6 +7,7 @@ import PersonalTraining from "./pages/PersonalTraining";
 import Footer from "./components/Footer";
 import Faq from "./pages/Faq";
 import SignUp from "./components/SignUp";
+import LogIn from "./components/LogIn";
 
 function HomePage() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/signup" element={<SignUp />} />
+        <Route path="/login" element={<LogIn />} />
       </Routes>
       <Footer />
     </Router>
