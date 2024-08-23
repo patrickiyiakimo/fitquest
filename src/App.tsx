@@ -8,6 +8,8 @@ import Footer from "./components/Footer";
 import Faq from "./pages/Faq";
 import SignUp from "./components/SignUp";
 import LogIn from "./components/LogIn";
+import Membership from "./components/Membership";
+import About from "./components/About";
 
 function HomePage() {
   return (
@@ -26,6 +28,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/membership" element={<Membership />} />
+        <Route path="/about" element={<About />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/login" element={<LogIn />} />
       </Routes>
