@@ -1,4 +1,5 @@
 import React from "react";
+import SimpleSlider from "../pages/SimpleSlider";
 
 export default function About() {
   return (
@@ -53,6 +54,12 @@ export default function About() {
           </ul>
         </div>
       </div>
+      <section>
+        <h1 className="text-2xl md:text-3xl lg:text-6xl mt-10 text-center font-bold">
+          Meet Our Trainers
+        </h1>
+      </section>
+      <SimpleSlider />
     </div>
   );
 }
