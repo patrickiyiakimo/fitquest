@@ -1,54 +1,23 @@
-/* slider.css
-.slick-prev {
-  @apply  w-16 h-16 text-white;
-}
-
-.slick-next {
-  @apply w-16 h-16 text-white;
-}
-
-.slick-prev::before, .slick-next::before {
-  @apply text-2xl;
-} */
-
-
-
-
-/* App.css */
-
-/* General slider styling */
-.slick-prev,
-.slick-next {
-  width: 64px; /* Adjust size as needed */
-  height: 64px; /* Adjust size as needed */
-  z-index: 10; /* Ensure arrows appear above the slider content */
+.slick-prev, .slick-next {
+  width: 40px;
+  height: 40px;
+  background-color: orangered; /* Customize as needed */
+  border-radius: 50%;
+  z-index: 10; /* Ensure the arrows are on top of other elements */
 }
 
 .slick-prev {
-  left: 10px; /* Position from the left */
+  left: 10px; /* Adjust as needed */
 }
 
 .slick-next {
-  right: 10px; /* Position from the right */
+  right: 10px; /* Adjust as needed */
 }
 
-.slick-prev::before,
-.slick-next::before {
-  font-size: 32px; /* Adjust size of the arrow icons */
-  color: #ffffff; /* Change color as needed */
-}
-
-/* Optional: Add custom styling for arrow visibility in light and dark modes */
-@media (prefers-color-scheme: dark) {
-  .slick-prev::before,
-  .slick-next::before {
-    color: #ffffff; /* Dark mode arrow color */
-  }
-}
-
-@media (prefers-color-scheme: light) {
-  .slick-prev::before,
-  .slick-next::before {
-    color: #000000; /* Light mode arrow color */
+/* Optional: Adjust positioning for mobile screens */
+@media (max-width: 767px) {
+  .slick-prev, .slick-next {
+    width: 30px;
+    height: 30px;
   }
 }
