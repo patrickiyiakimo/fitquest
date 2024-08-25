@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "title": "Morning Cardio",
+    "content": "Start the day with a 30-minute run or cycling session.",
+    "created_at": "2024-08-25T06:00:00Z"
+  },
+  {
+    "id": 2,
+    "title": "Leg Day",
+    "content": "Perform squats, lunges, and calf raises for leg strength.",
+    "created_at": "2024-08-24T09:30:00Z"
+  },
+  {
+    "id": 3,
+    "title": "Upper Body Strength",
+    "content": "Focus on bench press, pull-ups, and shoulder presses.",
+    "created_at": "2024-08-23T11:00:00Z"
+  },
+  {
+    "id": 4,
+    "title": "Core Workout",
+    "content": "Perform planks, Russian twists, and leg raises for core strength.",
+    "created_at": "2024-08-22T08:00:00Z"
+  },
+  {
+    "id": 5,
+    "title": "Stretching Routine",
+    "content": "Spend 20 minutes on full-body stretching to improve flexibility.",
+    "created_at": "2024-08-21T07:30:00Z"
+  },
+  {
+    "id": 6,
+    "title": "HIIT Session",
+    "content": "Do a 20-minute high-intensity interval training session.",
+    "created_at": "2024-08-20T17:00:00Z"
+  },
+  {
+    "id": 7,
+    "title": "Back and Biceps",
+    "content": "Focus on deadlifts, barbell rows, and bicep curls.",
+    "created_at": "2024-08-19T10:30:00Z"
+  },
+  {
+    "id": 8,
+    "title": "Yoga Session",
+    "content": "Attend a 60-minute yoga class for relaxation and flexibility.",
+    "created_at": "2024-08-18T18:00:00Z"
+  },
+  {
+    "id": 9,
+    "title": "Chest and Triceps",
+    "content": "Perform chest presses, push-ups, and tricep dips.",
+    "created_at": "2024-08-17T12:00:00Z"
+  },
+  {
+    "id": 10,
+    "title": "Mobility Exercises",
+    "content": "Work on joint mobility with dynamic stretches and foam rolling.",
+    "created_at": "2024-08-16T15:30:00Z"
+  },
+  {
+    "id": 11,
+    "title": "Evening Walk",
+    "content": "Take a 30-minute walk to cool down and relax in the evening.",
+    "created_at": "2024-08-15T19:00:00Z"
+  },
+  {
+    "id": 12,
+    "title": "Full Body Workout",
+    "content": "Engage in a full-body circuit with kettlebells and resistance bands.",
+    "created_at": "2024-08-14T13:00:00Z"
+  },
+  {
+    "id": 13,
+    "title": "Rest Day",
+    "content": "Take a day off to allow your muscles to recover.",
+    "created_at": "2024-08-13T07:00:00Z"
+  },
+  {
+    "id": 14,
+    "title": "Jump Rope",
+    "content": "Spend 15 minutes doing jump rope for cardiovascular health.",
+    "created_at": "2024-08-12T06:30:00Z"
+  },
+  {
+    "id": 15,
+    "title": "Swimming",
+    "content": "Do a 45-minute swimming session for full-body conditioning.",
+    "created_at": "2024-08-11T09:00:00Z"
+  },
+  {
+    "id": 16,
+    "title": "Abs and Core",
+    "content": "Focus on crunches, mountain climbers, and hanging leg raises.",
+    "created_at": "2024-08-10T08:30:00Z"
+  },
+  {
+    "id": 17,
+    "title": "Strength Training",
+    "content": "Engage in heavy lifting, focusing on compound movements.",
+    "created_at": "2024-08-09T14:00:00Z"
+  },
+  {
+    "id": 18,
+    "title": "Cool Down Routine",
+    "content": "Spend 15 minutes cooling down with light stretches and breathing exercises.",
+    "created_at": "2024-08-08T19:30:00Z"
+  },
+  {
+    "id": 19,
+    "title": "Cardio Kickboxing",
+    "content": "Attend a 45-minute cardio kickboxing class for stamina and agility.",
+    "created_at": "2024-08-07T18:00:00Z"
+  },
+  {
+    "id": 20,
+    "title": "Track Progress",
+    "content": "Review and log your progress in your fitness journal.",
+    "created_at": "2024-08-06T20:00:00Z"
+  },
+  {
+    "id": 21,
+    "title": "Plyometric Training",
+    "content": "Do box jumps, burpees, and other explosive movements.",
+    "created_at": "2024-08-05T15:00:00Z"
+  },
+  {
+    "id": 22,
+    "title": "Speed and Agility",
+    "content": "Work on ladder drills and sprints to improve speed.",
+    "created_at": "2024-08-04T09:00:00Z"
+  },
+  {
+    "id": 23,
+    "title": "Bodyweight Workout",
+    "content": "Use your body weight for push-ups, squats, and planks.",
+    "created_at": "2024-08-03T07:30:00Z"
+  },
+  {
+    "id": 24,
+    "title": "Nutrition Tips",
+    "content": "Focus on protein-rich foods and proper hydration.",
+    "created_at": "2024-08-02T12:00:00Z"
+  },
+  {
+    "id": 25,
+    "title": "Personal Record Day",
+    "content": "Test your limits by going for a new personal best in lifting.",
+    "created_at": "2024-08-01T11:00:00Z"
+  },
+  {
+    "id": 26,
+    "title": "Group Workout",
+    "content": "Join a group class for motivation and camaraderie.",
+    "created_at": "2024-07-31T16:30:00Z"
+  },
+  {
+    "id": 27,
+    "title": "Recovery Techniques",
+    "content": "Incorporate foam rolling and massage to aid recovery.",
+    "created_at": "2024-07-30T18:00:00Z"
+  },
+  {
+    "id": 28,
+    "title": "Interval Running",
+    "content": "Alternate between sprinting and jogging for endurance.",
+    "created_at": "2024-07-29T08:00:00Z"
+  },
+  {
+    "id": 29,
+    "title": "Outdoor Workout",
+    "content": "Take your workout outside for fresh air and a change of scenery.",
+    "created_at": "2024-07-28T10:00:00Z"
+  },
+  {
+    "id": 30,
+    "title": "Balance Training",
+    "content": "Use balance boards and stability balls to improve balance.",
+    "created_at": "2024-07-27T13:00:00Z"
+  },
+  {
+    "id": 31,
+    "title": "Motivational Quotes",
+    "content": "Read and reflect on motivational quotes before your workout.",
+    "created_at": "2024-07-26T07:30:00Z"
+  },
+  {
+    "id": 32,
+    "title": "Hydration Strategy",
+    "content": "Learn how to properly hydrate before, during, and after workouts.",
+    "created_at": "2024-07-25T14:30:00Z"
+  },
+  {
+    "id": 33,
+    "title": "Dance Fitness",
+    "content": "Join a dance fitness class to mix fun with exercise.",
+    "created_at": "2024-07-24T17:00:00Z"
+  },
+  {
+    "id": 34,
+    "title": "CrossFit Routine",
+    "content": "Try a CrossFit workout to challenge your entire body.",
+    "created_at": "2024-07-23T19:00:00Z"
+  },
+  {
+    "id": 35,
+    "title": "Jump Training",
+    "content": "Improve your vertical jump with plyometric exercises.",
+    "created_at": "2024-07-22T06:00:00Z"
+  },
+  {
+    "id": 36,
+    "title": "Workout Playlist",
+    "content": "Create a high-energy playlist to power through your workout.",
+    "created_at": "2024-07-21T12:00:00Z"
+  },
+  {
+    "id": 37,
+    "title": "Sleep and Recovery",
+    "content": "Understand the importance of sleep in muscle recovery.",
+    "created_at": "2024-07-20T22:00:00Z"
+  },
+  {
+    "id": 38,
+    "title": "Park Workout",
+    "content": "Utilize a local park for a bodyweight workout.",
+    "created_at": "2024-07-19T08:30:00Z"
+  },
+  {
+    "id": 39,
+    "title": "Running Techniques",
+    "content": "Focus on proper running form to prevent injuries.",
+    "created_at": "2024-07-18T07:00:00Z"
+  },
+  {
+    "id": 40,
+    "title": "Strength Circuits",
+    "content": "Set up a circuit with a mix of strength and cardio exercises.",
+    "created_at": "2024-07-17T15:00:00Z"
+  },
+  {
+    "id": 41,
+    "title": "Home Gym Setup",
+    "content": "Tips for setting up a home gym with minimal equipment.",
+    "created_at": "2024-07-16T18:00:00Z"
+  },
+  {
+    "id": 42,
+    "title": "Fitness Challenges",
+    "content": "Participate in a 30-day fitness challenge to stay motivated.",
+    "created_at": "2024-07-15T12:30:00Z"
+  },
+  {
+    "id": 43,
+    "title": "Circuit Training",
+    "content": "Combine strength and cardio in a fast-paced circuit.",
+    "created_at": "2024-07-14T07:30:00Z"
+  },
+  {
+    "id": 44,
+    "title": "Meal Prep",
+    "content": "Plan and prepare your meals for the week ahead.",
+    "created_at": "2024-07-13T10:00:00Z"
+  },
+  {
+    "id": 45,
+    "title": "Rowing Machine",
+    "content": "Use the rowing machine for a full-body workout.",
+    "created_at": "2024-07-12T09:30:00Z"
+  },
+  {
+    "id": 46,
+    "title": "Bodybuilding Basics",
+    "content": "Learn the fundamentals of bodybuilding and muscle growth.",
+    "created_at": "2024-07-11T14:00:00Z"
+  },
+  {
+    "id": 47,
+    "title": "Push-Pull Workout",
+    "content": "Focus on push and pull exercises for balanced strength.",
+    "created_at": "2024-07-10T11:00:00Z"
+  },
+  {
+    "id": 48,
+    "title": "Warm-Up Routine",
+    "content": "Spend 10 minutes warming up before intense exercise.",
+    "created_at": "2024-07-09T06:00:00Z"
+  },
+  {
+    "id": 49,
+    "title": "High Reps vs Low Reps",
+    "content": "Understand when to use high reps versus low reps in training.",
+    "created_at": "2024-07-08T08:00:00Z"
+  },
+  {
+    "id": 50,
+    "title": "Mind-Muscle Connection",
+    "content": "Focus on the mind-muscle connection for better results.",
+    "created_at": "2024-07-07T07:30:00Z"
+  },
+  {
+    "id": 51,
+    "title": "Flexibility Training",
+    "content": "Incorporate flexibility training into your routine.",
+    "created_at": "2024-07-06T16:00:00Z"
+  },
+  {
+    "id": 52,
+    "title": "Foam Rolling",
+    "content": "Use a foam roller to relieve muscle tension post-workout.",
+    "created_at": "2024-07-05T18:00:00Z"
+  },
+  {
+    "id": 53,
+    "title": "Gym Etiquette",
+    "content": "Learn the do's and don'ts of gym etiquette.",
+    "created_at": "2024-07-04T07:00:00Z"
+  },
+  {
+    "id": 54,
+    "title": "Isolation Exercises",
+    "content": "Focus on isolating specific muscles for targeted growth.",
+    "created_at": "2024-07-03T13:00:00Z"
+  },
+  {
+    "id": 55,
+    "title": "Battle Ropes",
+    "content": "Use battle ropes for an intense upper body workout.",
+    "created_at": "2024-07-02T10:00:00Z"
+  },
+  {
+    "id": 56,
+    "title": "Mindful Eating",
+    "content": "Practice mindful eating to support your fitness goals.",
+    "created_at": "2024-07-01T20:00:00Z"
+  },
+  {
+    "id": 57,
+    "title": "Weighted Vest Training",
+    "content": "Incorporate a weighted vest into your workout for added resistance.",
+    "created_at": "2024-06-30T08:30:00Z"
+  },
+  {
+    "id": 58,
+    "title": "Sauna Benefits",
+    "content": "Learn how sauna sessions can aid in muscle recovery.",
+    "created_at": "2024-06-29T19:00:00Z"
+  },
+  {
+    "id": 59,
+    "title": "Supplements 101",
+    "content": "Understand the basics of supplementation for fitness.",
+    "created_at": "2024-06-28T11:00:00Z"
+  },
+  {
+    "id": 60,
+    "title": "Group Fitness Classes",
+    "content": "Explore different types of group fitness classes.",
+    "created_at": "2024-06-27T17:00:00Z"
+  }
+]
