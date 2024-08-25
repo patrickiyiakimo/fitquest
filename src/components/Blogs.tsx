@@ -28,7 +28,7 @@ const Blogs = () => {
           setLoading(false); // Data fetched, set loading to false
         }, 2000); // 2-second delay
       } catch (error) {
-        console.error("Failed to fetch:", error);
+        console.error("Failed to fetch:", error); 
         setLoading(false); // Error occurred, stop loading
       }
     };
@@ -70,11 +70,11 @@ const Blogs = () => {
 
       {/* Display skeletons while loading */}
       {loading ? (
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 m-10 p-20">
+        <div className="grid ml-10 md:gap-5 md:ml-10 md:grid-cols-2 lg:grid-cols-3 lg:m-10 lg:p-20">
           {Array.from({ length: blogsPerPage }).map((_, index) => (
             <div
               key={index}
-              className="skeleton md:ml-20 lg:ml-5 h-32 w-80 mt-16 p-5 border-b-2"
+              className="skeleton mt-24 md:mt-32 ml-10 h-32 w-60 md:ml-2 md:m-14 md:p-14 lg:ml-5 md:h-32 md:w-80 lg:mt-16 p-5 border-b-2"
             ></div>
           ))}
         </div>
