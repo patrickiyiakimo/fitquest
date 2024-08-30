@@ -103,7 +103,7 @@ export default function SignUp() {
             )}
           </Formik>
           <p className="ml-20 md:ml-72 lg:ml-16 pt-7">
-            Already have an account?
+            Don't have an account?
             <span className="text-blue-800 font-semibold cursor-pointer ml-5 lg:pl-20">
               Sign Up
             </span>
