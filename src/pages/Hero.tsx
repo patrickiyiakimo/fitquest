@@ -19,7 +19,7 @@ const Hero: React.FC = () => {
             We believe that the potential to achieve desired health and wellness
             goals lies within everyone.
           </p>
-          <button className="ml-20 py-2 px-20 bg-orange-600 whitespace-nowrap md:py-4 md:px-72 lg:ml-40 lg:py-2 lg:px-7 rounded-full text-white mt-10 hover:bg-orange-400">
+          <button className="ml-14 py-2 px-20 bg-orange-600 whitespace-nowrap md:py-4 md:px-72 lg:ml-40 lg:py-2 lg:px-7 rounded-full text-white mt-10 hover:bg-orange-400">
             Join Now
           </button>
           <div>
