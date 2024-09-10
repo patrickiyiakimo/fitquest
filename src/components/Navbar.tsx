@@ -55,7 +55,7 @@ export default function Navbar() {
           </li>
           <li>
             <a
-              href="#"
+              href="/membership"
               className={`${
                 activeLink === "Membership" ? "text-orange-500 underline" : ""
               }`}
@@ -66,7 +66,7 @@ export default function Navbar() {
           </li>
           <li>
             <a
-              href="#"
+              href="/about"
               className={`${
                 activeLink === "About" ? "text-orange-500 underline" : ""
               }`}
@@ -77,7 +77,7 @@ export default function Navbar() {
           </li>
           <li>
             <a
-              href="#"
+              href="/blogs"
               className={`${
                 activeLink === "Blogs" ? "text-orange-500 underline" : ""
               }`}
@@ -88,7 +88,7 @@ export default function Navbar() {
           </li>
           <li>
             <a
-              href="#"
+              href="/signup"
               className="px-10 rounded-full py-2 bg-black text-white hover:bg-orange-600"
               onClick={() => handleClick("Sign Up")}
             >
@@ -160,7 +160,7 @@ export default function Navbar() {
             </li>
             <li>
               <a
-                href="#"
+                href="/membership"
                 className={`${
                   activeLink === "Membership" ? "text-orange-500 underline" : ""
                 }`}
@@ -171,7 +171,7 @@ export default function Navbar() {
             </li>
             <li>
               <a
-                href="#"
+                href="/about"
                 className={`${
                   activeLink === "About" ? "text-orange-500 underline" : ""
                 }`}
@@ -182,7 +182,7 @@ export default function Navbar() {
             </li>
             <li>
               <a
-                href="#"
+                href="/blogs"
                 className={`${
                   activeLink === "Blogs" ? "text-orange-500 underline" : ""
                 }`}
