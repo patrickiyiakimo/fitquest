@@ -12,7 +12,7 @@ const Hero: React.FC = () => {
           />
         </div>
         <div className="ml-9 md:ml-1 lg:w-1/2 mt-28">
-          <h1 className="text-center  lg:ml-1 text-2xl md:text-6xl md:mr-10 font-bold">
+          <h1 className="text-center mr-4 lg:ml-1 lg:mr-0 text-xl md:text-6xl md:mr-10 font-bold">
             Reach Your Body Goal at FitQuest
           </h1>
           <p className="text-center mt-7 mr-5 lg:ml-10 md:w-2/4 md:ml-40  lg:w-96 text-xl">
