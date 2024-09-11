@@ -1,6 +1,7 @@
 import React from "react";
 import { Formik, Field, Form as FormikForm, ErrorMessage } from "formik";
 import * as Yup from "yup";
+import { Link } from "react-router-dom";
 
 export default function SignUp() {
  const validationSchema = Yup.object({
@@ -116,7 +117,7 @@ export default function SignUp() {
           )}
         </Formik>
         <p className="ml-20 md:ml-72 lg:ml-16 pt-7">
-          Already have an account? <span className="text-blue-800 font-semibold cursor-pointer ml-5 lg:pl-20"><a href="/login">LogIn</a></span>
+          Already have an account? <span className="text-blue-800 font-semibold cursor-pointer ml-5 lg:pl-20"><Link to="/login">LogIn</Link></span>
         </p>
       </div>
     </div>

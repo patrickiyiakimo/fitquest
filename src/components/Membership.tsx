@@ -1,4 +1,3 @@
-import React from "react";
 import { IoLocationOutline } from "react-icons/io5";
 import { IoMdCall } from "react-icons/io";
 import { MdEmail } from "react-icons/md";

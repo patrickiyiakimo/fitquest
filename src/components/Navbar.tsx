@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   // State to track the active link
@@ -43,57 +44,57 @@ export default function Navbar() {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a
-              href="#"
+            <Link
+              to="/"
               className={`${
                 activeLink === "Home" ? "text-orange-500 underline" : ""
               }`}
               onClick={() => handleClick("Home")}
             >
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="/membership"
+            <Link
+              to="/membership"
               className={`${
                 activeLink === "Membership" ? "text-orange-500 underline" : ""
               }`}
               onClick={() => handleClick("Membership")}
             >
               Membership
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="/about"
+            <Link
+              to="/about"
               className={`${
                 activeLink === "About" ? "text-orange-500 underline" : ""
               }`}
               onClick={() => handleClick("About")}
             >
               About
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="/blogs"
+            <Link
+              to="/blogs"
               className={`${
                 activeLink === "Blogs" ? "text-orange-500 underline" : ""
               }`}
               onClick={() => handleClick("Blogs")}
             >
               Blogs
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="/signup"
+            <Link
+              to="/signup"
               className="px-10 rounded-full py-2 bg-black text-white hover:bg-orange-600"
               onClick={() => handleClick("Sign Up")}
             >
               Sign Up
-            </a>
+            </Link>
           </li>
           <li>
             <label className="swap swap-rotate">
@@ -148,55 +149,57 @@ export default function Navbar() {
           ></label>
           <ul className="menu bg-base-200 text-base-content min-h-full w-80 p-10 pt-80">
             <li>
-              <a
-                href="#"
+              <Link
+                to="/"
                 className={`${
                   activeLink === "Home" ? "text-orange-500 underline" : ""
                 }`}
                 onClick={() => handleClick("Home")}
               >
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="/membership"
+              <Link
+                to="/membership"
                 className={`${
                   activeLink === "Membership" ? "text-orange-500 underline" : ""
                 }`}
                 onClick={() => handleClick("Membership")}
               >
                 Membership
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="/about"
+              <Link
+                to="/about"
                 className={`${
                   activeLink === "About" ? "text-orange-500 underline" : ""
                 }`}
                 onClick={() => handleClick("About")}
               >
                 About
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="/blogs"
+              <Link
+                to="/blogs"
                 className={`${
                   activeLink === "Blogs" ? "text-orange-500 underline" : ""
                 }`}
                 onClick={() => handleClick("Blogs")}
               >
                 Blogs
-              </a>
+              </Link>
             </li>
             <li>
-              <div className="navbar-end">
-                <a className="px-10 rounded-full py-2 bg-black whitespace-nowrap text-white hover:bg-orange-600">
-                  Sign Up
-                </a>
-              </div>
+              <Link
+                to="/signup"
+                className="px-10 rounded-full py-2 bg-black mr-32 whitespace-nowrap text-white hover:bg-orange-600"
+                onClick={() => handleClick("Sign Up")}
+              >
+                Sign Up
+              </Link>
             </li>
             <li>
               <label className="swap swap-rotate">
