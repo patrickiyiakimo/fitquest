@@ -105,7 +105,7 @@ export default function SignUp() {
           <p className="ml-20 md:ml-72 lg:ml-16 pt-7">
             Don't have an account?
             <span className="text-blue-800 font-semibold cursor-pointer ml-5 lg:pl-20">
-              Sign Up
+              <a href="/signup"> Sign Up</a>
             </span>
           </p>
         </div>
