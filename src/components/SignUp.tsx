@@ -22,7 +22,6 @@ export default function SignUp() {
      .required("Confirm password is required"),
  });
 
-
   const handleSubmit = () => {
     console.log("Form data");
     // Add your form submission logic here
