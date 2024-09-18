@@ -1,4 +1,4 @@
-// src/react-slick.d.ts
+
 declare module "react-slick" {
   import * as React from "react";
 
