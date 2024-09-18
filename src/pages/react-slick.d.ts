@@ -1,4 +1,3 @@
-
 declare module "react-slick" {
   import * as React from "react";
 
