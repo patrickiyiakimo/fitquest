@@ -2,7 +2,7 @@ import React from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import "../App.css"; // Import App.css
+import "../App.css"; 
 
 // Define the type for slider settings
 interface SliderSettings {
